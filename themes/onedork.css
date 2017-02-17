@@ -1880,12 +1880,13 @@ div.cell.text_cell .cm-s-default span.cm-variable-3 {
 .cm-s-default .cm-selected {
  background: #2f3640;
 }
-div#maintoolbar {
+
+/*div#maintoolbar {
  display: none !important;
 }
 #header-container {
  display: none !important;
-}
+}*/
 
 /**********************************
  MathJax Settings and Style Script

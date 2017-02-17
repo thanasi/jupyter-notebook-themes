@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Jupyter Notebook Themes",
+  "name": "Jupyter Notebook Themes Fork",
   "description": "An extension for Google Chrome (and Chromium) which supports awesome Jupyter(IPython) Notebook themes.",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": "icon.png",
@@ -20,7 +20,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["http://*/*","https://*/*"],
+      "matches": ["http://localhost/*","https://localhost/*"],
       "all_frames": true,
       "js": [
         "content_script.js"
